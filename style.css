@@ -88,18 +88,13 @@ body {
         padding: 0 1em 0 1em;
         column-count: 2;
         padding-top: 120px;
+        z-index: 1;
     }
 
     img {
         width: 100%;
         border-radius: 20px;
         margin-bottom: 50px;
-    }
-
-    .image:hover {
-        opacity: 0.9;
-        z-index: 1;
-        cursor: zoom-in;
     }
     footer {
         background: white;
@@ -194,11 +189,14 @@ body {
        }
 
 @media only screen and (min-width: 568px) {
+    nav {
+        z-index: 3;
+    }
 
     .fa-pinterest {
         color: #db2238;
         padding: 15px;
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .gallery {
@@ -226,7 +224,7 @@ body {
     .fa-search {
         color: #666;
         padding: 15px;
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .fa-fort-awesome-alt {
@@ -326,10 +324,15 @@ body {
 
 @media only screen and (min-width: 768px) {
 
+    nav {
+        z-index: 3;
+    }
+
     .gallery {
         padding: 0 1em 0 1em;
         column-count: 4;
         padding-top: 120px;
+        z-index: 1;
     }
     
     .fa-bell,
@@ -338,13 +341,13 @@ body {
     .fa-search {
         color: #666;
         padding: 15px;
-        font-size: 3.5em;
+        font-size: 2.5em;
     }
 
     .fa-fort-awesome-alt {
         color: rgb(15, 14, 14);
         padding: 15px;
-        font-size: 3.5em;
+        font-size: 2.5em;
     }
 
     a {
@@ -455,6 +458,7 @@ body {
 
     .gallery {
         column-count: 5;
+        z-index: 1
     }
     .fa-bell,
     .fa-comment-dots,
@@ -468,7 +472,7 @@ body {
     .fa-fort-awesome-alt {
         color: rgb(15, 14, 14);
         padding: 15px;
-        font-size: 3em;
+        font-size: 2em;
     }
 
     a {
@@ -488,7 +492,7 @@ body {
     .fa-pinterest {
         color: #db2238;
         padding: 15px;
-        font-size: 3em;
+        font-size: 2em;
     }
     .following {
         color: #666;
